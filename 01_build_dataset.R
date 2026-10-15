@@ -178,7 +178,7 @@ B<-aggregate(.~id,B[,c(1,4:ncol(B))],sum) #Sum over the 1860 counties of each ne
 
 X<-left_join(X,B) #Attach the 1860 counts to the monument table
 
-X$rSLV<-X$AHB001/apply(X[,18:19],1,sum) #Slavery intensity: enslaved population divided by total (enslaved + free) population in 1860
+X$rSLV<-X$AHB001/apply(X[,21:22],1,sum) #Slavery intensity: enslaved population divided by total (enslaved + free) population in 1860
 X$rSLV<-ifelse(is.nan(X$rSLV),0,X$rSLV) #Neighbourhoods with no 1860 population get an intensity of 0
 
 # ---- 8. Final modelling dataset ----
