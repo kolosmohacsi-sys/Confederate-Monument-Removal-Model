@@ -60,7 +60,7 @@ The models are compared by AIC and McFadden's pseudo-R². Model 3 has the lowest
 
 The full regression table is in [`model_comparasion.html`](model_comparasion.html).
 
-Removal followed political representation rather than historical grievance. In all four models, Democratic vote share, population density and a Democratic county government were associated with a higher chance of removal, and a larger Black population share with a lower one. Restrictions on teaching Critical Race Theory were associated with fewer removals. McFadden's pseudo-R² is about 0.14 for each model.
+Removal followed political representation rather than historical grievance. In all four models, Democratic vote share, population density and a Democratic county government were associated with a higher chance of removal, and a larger Black population share with a lower one. Monuments in areas with higher slavery intensity in 1860 were also less likely to be removed (models 1–2), and restrictions on teaching Critical Race Theory were associated with fewer removals. McFadden's pseudo-R² is about 0.14 for each model.
 
 ## Scripts
 

@@ -1,0 +1,18 @@
+# raw input data (not redistributable)
+CRT.csv
+CNTY.csv
+WHSF.xlsx
+counties.geojson
+demography.csv
+elec.Rdata
+crisis.csv
+slavery.csv
+US_county_1860.*
+
+# intermediate files
+X.csv
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
